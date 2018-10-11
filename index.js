@@ -1,3 +1,4 @@
+//This is a Node.js Line Bot Code
 const linebot = require('linebot');
 const express = require('express');
 
@@ -12,7 +13,7 @@ const app = express();
 const linebotParser = bot.parser();
 
 app.get('/',function(req,res){
-    res.send('Hello World!');
+    res.send('Hello World!\nHah~');
 });
 
 app.post('/linewebhook', linebotParser);
