@@ -49,7 +49,7 @@ bot.on('message', function (event) {
 	      rm = '大吉';}
 		}
 		else if(gm == '/bye'){
-			if(ggroupid == 'C990ab05a65661d14bc336f1a530f2797'){
+			if(ggroupid == '{admin group id}'){
 				rm = '機器人不能離開此群組!!';
 			}
 			else if(gmtype == 'group'){
@@ -90,11 +90,11 @@ bot.on('message', function (event) {
 				rm = 'error!!\n範圍錯誤';
 			}
 		}
-		else if(ggroupid == 'Cc1b85aa8d2f894a2129393b79f0260a2'){
-			if(gm.indexOf("帥") > -1){
-				rm = '甚麼?剛剛484提到帥！對！！小群很帥！！！超帥><'
-			}
-		}
+		
+			
+		
+			
+		
 		else{
 			if(gmtype =='user'){
 				rm = 'ㄛ';
